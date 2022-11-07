@@ -1,0 +1,29 @@
+.footer__link-container {
+  margin: 0 18px 0 0;
+
+}
+
+.footer__link-container:last-child {
+  margin: 0;
+}
+
+
+@media all and (max-width: 1024px) {
+  .footer__link-container {
+    font-weight: normal;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer__link-container {
+    margin: 32px 0px 0px;
+  }
+
+  .footer__link-container:last-child {
+    margin: 32px 0 0;
+  }
+
+  .footer__link-container:first-child {
+    margin: 0;
+  }
+}

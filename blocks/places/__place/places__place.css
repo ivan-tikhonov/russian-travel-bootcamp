@@ -3,7 +3,6 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-template-rows: minmax(76, 152) 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
   grid-template-areas:
@@ -25,7 +24,6 @@
 @media all and (max-width: 1024px) {
   .places__place {
     grid-template-columns: 340px 1fr;
-    grid-template-rows: minmax(46, 92) 1fr;
     grid-column-gap: 28px;
   }
 }
@@ -33,7 +31,6 @@
 @media all and (max-width: 768px) {
   .places__place {
     grid-template-columns: 1fr;
-    grid-template-rows: 35px fit-content 1fr 1fr;
     grid-row-gap: 32px;
     grid-template-areas:
     "title"

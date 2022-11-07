@@ -12,10 +12,10 @@
 <body class="page">
 
   <header class="header">
-    <img src="./images/logo.png" alt="логотип карта России" class="header__logo">
-    <ul class="header__lang-link-container">
-      <li><a class="header__lang-link header__lang-link_selected"  href="#" target="_blank">Ru</a></li>
-      <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
+    <img src="./images/logo.svg" alt="логотип карта России" class="header__logo">
+    <ul class="header__lang-link-block">
+      <li class="header__lang-link-container"><a class="header__lang-link header__lang-link_selected"  href="#" target="_blank">Ru</a></li>
+      <li class="header__lang-link-container"><a class="header__lang-link" href="#" target="_blank">En</a></li>
     </ul>
   </header>
 
@@ -23,8 +23,11 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./images/lead_map.png" alt="Карта России" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure>
+        <img src="./images/lead_map.png" alt="Карта России" class="lead__image">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
+
     </section>
 
     <section class="intro">
@@ -39,36 +42,38 @@
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
         <li>
-          <strong>Часовых поясов</strong> 11
+          <span class="intro__list_text_bold">Часовых поясов</span> 11
         </li>
         <li>
-          <strong>Объектов природного наследия ЮНЕСКО</strong> 12
+          <span class="intro__list_text_bold">Объектов природного наследия ЮНЕСКО</span> 12
         </li>
         <li>
-          <strong>Объектов культурного наследия ЮНЕСКО</strong> 16
+          <span class="intro__list_text_bold">Объектов культурного наследия ЮНЕСКО</span> 16
         </li>
         <li>
-          <strong>Природных заповедников</strong> 105
+          <span class="intro__list_text_bold">Природных заповедников</span> 105
         </li>
         <li>
-          <strong>Аэропортов</strong> 241
+          <span class="intro__list_text_bold">Аэропортов</span> 241
         </li>
       </ul>
     </section>
 
     <section class="photo-grid">
-      <img src="./images/gal_01.png" alt="Вид из окна поезда" class="photo-grid__item">
-      <img src="./images/gal_02.png" alt="Вид на горы из самолета" class="photo-grid__item">
-      <img src="./images/gal_03.png" alt="Собака на стоге сена в поле" class="photo-grid__item">
-      <img src="./images/gal_04.png" alt="Туманный лес" class="photo-grid__item">
-      <img src="./images/gal_05.png" alt="Колесо машины на льду" class="photo-grid__item">
-      <img src="./images/gal_06.png" alt="Берег моря" class="photo-grid__item">
-      <img src="./images/gal_07.png" alt="Горы" class="photo-grid__item">
-      <img src="./images/gal_08.png" alt="Пешеходный переход" class="photo-grid__item">
-      <img src="./images/gal_09.png" alt="Горы в тумане" class="photo-grid__item">
-      <img src="./images/gal_10.png" alt="Горный пик" class="photo-grid__item">
-      <img src="./images/gal_11.png" alt="Лес в горах" class="photo-grid__item">
-      <img src="./images/gal_12.png" alt="Горы в тумане" class="photo-grid__item">
+      <ul class="photo-grid__item-list">
+        <li><img src="./images/gal_01.png" alt="Вид из окна поезда" class="photo-grid__item"></li>
+        <li><img src="./images/gal_02.png" alt="Вид на горы из самолета" class="photo-grid__item"></li>
+        <li><img src="./images/gal_03.png" alt="Собака на стоге сена в поле" class="photo-grid__item"></li>
+        <li><img src="./images/gal_04.png" alt="Туманный лес" class="photo-grid__item"></li>
+        <li><img src="./images/gal_05.png" alt="Колесо машины на льду" class="photo-grid__item"></li>
+        <li><img src="./images/gal_06.png" alt="Берег моря" class="photo-grid__item"></li>
+        <li><img src="./images/gal_07.png" alt="Горы" class="photo-grid__item"></li>
+        <li><img src="./images/gal_08.png" alt="Пешеходный переход" class="photo-grid__item"></li>
+        <li><img src="./images/gal_09.png" alt="Горы в тумане" class="photo-grid__item"></li>
+        <li><img src="./images/gal_10.png" alt="Горный пик" class="photo-grid__item"></li>
+        <li><img src="./images/gal_11.png" alt="Лес в горах" class="photo-grid__item"></li>
+        <li><img src="./images/gal_12.png" alt="Горы в тумане" class="photo-grid__item"></li>
+      </ul>
     </section>
 
     <section class="places">
@@ -76,7 +81,7 @@
       <div class="places__place">
         <h2 class="places__title">Куршская коса</h2>
         <div class="places__website">
-          <h3 class="places__website-text">URL</h3>
+          <span class="places__website-text">url</span>
           <a href="http://park-kosa.ru/" target="_blank" class="places__website-url">park-kosa.ru</a>
         </div>
         <img src="./images/01_kosa.png" alt="Фото Куршской косы" class="places__image">
@@ -89,7 +94,7 @@
       <div class="places__place">
         <h2 class="places__title">Кольский</h2>
         <div class="places__website">
-          <h3 class="places__website-text">URL</h3>
+          <span class="places__website-text">url</span>
           <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="places__website-url">National Geographic</a>
         </div>
         <img src="./images/02_kola.png" alt="Фото гор Кольского полуострова" class="places__image">
@@ -102,7 +107,7 @@
       <div class="places__place">
         <h2 class="places__title">Алтай</h2>
         <div class="places__website">
-          <h3 class="places__website-text">URL</h3>
+          <span class="places__website-text">url</span>
           <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="places__website-url">Facebook</a>
         </div>
         <img src="./images/03_altai.png" alt="Ноутбук на фоне леса в Алтае" class="places__image">
@@ -114,7 +119,7 @@
       <div class="places__place">
         <h2 class="places__title">Зимний Байкал</h2>
         <div class="places__website">
-          <h3 class="places__website-text">URL</h3>
+          <span class="places__website-text">url</span>
           <a href="https://vk.com/baikalmile" target="_blank" class="places__website-url">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/04_baikal.png" alt="Лед озера Байкал" class="places__image">
@@ -126,7 +131,7 @@
       <div class="places__place">
         <h2 class="places__title">Карелия</h2>
         <div class="places__website">
-          <h3 class="places__website-text">URL</h3>
+          <span class="places__website-text">url</span>
           <a href="http://vodlozero.ru/" target="_blank" class="places__website-url">http://vodlozero.ru/</a>
         </div>
         <img src="./images/05_karjala.png" alt="Карельское лесное озеро" class="places__image">
@@ -145,13 +150,15 @@
 
   </main>
   <footer class="footer">
-    <ul class="footer__links">
-      <li class="footer__link"><a href="https://yandex.ru/maps/" target="_blank" class="footer__link">Карты</a></li>
-      <li class="footer__link"><a href="https://yandex.ru/pogoda/" target="_blank" class="footer__link">Погода</a></li>
-      <li class="footer__link"><a href="https://rasp.yandex.ru/" target="_blank" class="footer__link">Расписание</a></li>
-      <li class="footer__link"><a href="https://calendar.yandex.ru/" target="_blank" class="footer__link">Календарь</a></li>
-      <li class="footer__link"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
-    </ul>
+    <nav>
+      <ul class="footer__links">
+        <li class="footer__link-container"><a href="https://yandex.ru/maps/" target="_blank" class="footer__link">Карты</a></li>
+        <li class="footer__link-container"><a href="https://yandex.ru/pogoda/" target="_blank" class="footer__link">Погода</a></li>
+        <li class="footer__link-container"><a href="https://rasp.yandex.ru/" target="_blank" class="footer__link">Расписание</a></li>
+        <li class="footer__link-container"><a href="https://calendar.yandex.ru/" target="_blank" class="footer__link">Календарь</a></li>
+        <li class="footer__link-container"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+      </ul>
+    </nav>
     <p class="footer__copyright">&copy; 2022. Иван Тихонов</p>
   </footer>
 

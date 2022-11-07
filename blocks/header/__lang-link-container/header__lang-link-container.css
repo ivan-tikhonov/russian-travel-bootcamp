@@ -1,13 +1,7 @@
 .header__lang-link-container {
-    width: 78px;
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    justify-content: space-between;
+  margin: 0 18px 0 0;
 }
 
-@media all and (max-width: 768px) {
-    .header__lang-link-container {
-        width: 62px;
-    }
+.header__lang-link-container:last-of-type {
+  margin: 0;
 }

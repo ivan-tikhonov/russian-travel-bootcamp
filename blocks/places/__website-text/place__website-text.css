@@ -1,5 +1,9 @@
 .places__website-text {
-  font-family: 'Inter';
+  margin: 0 0 12px;
+  padding: 0;
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Inter', 'Maison Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;

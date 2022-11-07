@@ -8,7 +8,6 @@
 
 @media all and (max-width: 768px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     justify-content: start;
   }
