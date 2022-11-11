@@ -11,13 +11,13 @@
     align-self: flex-start;
   }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1025px) {
     .lead__caption {
         margin-left: 24px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
     .lead__caption {
         margin-left: 16px;
     }
