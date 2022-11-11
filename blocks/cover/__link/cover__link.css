@@ -2,8 +2,7 @@
   padding: 0;
   margin: 92px auto 0;
   position: relative;
-  max-width: 1184px;
-  min-height: 740px;
+  width: 92.5%;
   text-decoration: none;
   background-position: top center;
   background-image: url('../../../images/cover__background.png');
@@ -33,26 +32,23 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .cover__link {
-    max-width: 1024px;
-    min-height: 640px;
-  }
-}
-
-@media all and (max-width: 1024px) {
-  .cover__link {
-    margin-top: 90px;
-    max-width: 768px;
-    min-height: 480px;
+    max-width: 100%;
   }
 }
 
 @media all and (max-width: 768px) {
   .cover__link {
+    margin-top: 90px;
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .cover__link {
     margin-top: 66px;
-    max-width: 320px;
-    min-height: 200px;
+    max-width: 100%;
   }
 }
 

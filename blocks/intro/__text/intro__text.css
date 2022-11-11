@@ -1,10 +1,11 @@
-.title__text {
+.intro__text {
     padding: 0;
+    max-width: 690px;
     font-family: 'Inter', 'Maison Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 26px;
     margin: 40px 0 0;
 }
 

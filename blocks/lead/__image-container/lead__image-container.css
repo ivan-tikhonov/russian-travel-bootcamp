@@ -1,0 +1,26 @@
+.lead__image-container {
+  margin: 64px auto 0;
+  max-width: 984px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image-container {
+    margin-top: 56px;
+    max-width: 928px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead__image-container {
+    margin-top: 56px;
+    max-width: 768px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__image-container {
+    margin-top: 40px;
+    max-width: 768px;
+  }
+}
