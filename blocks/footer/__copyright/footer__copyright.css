@@ -11,8 +11,13 @@
   align-self: flex-end;
 }
 
+@media all and (max-width: 1023px) {
+  .footer__copyright {
+   align-self: center;
+  }
+}
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
   .footer__copyright {
    text-align: start;
    align-self: flex-start;

@@ -8,15 +8,15 @@
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
   .footer__link-container {
     font-weight: normal;
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
   .footer__link-container {
-    margin: 32px 0px 0px;
+    margin: 26px 0px 0px;
   }
 
   .footer__link-container:last-child {

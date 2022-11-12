@@ -9,7 +9,14 @@
   line-height: 18px;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
+  .intro__list {
+    margin-top: 32px;
+  }
+}
+
+
+@media all and (max-width: 767px) {
   .intro__list {
     margin-top: 34px;
   }

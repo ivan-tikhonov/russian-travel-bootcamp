@@ -3,6 +3,7 @@
   height: fit-content;
   font-size: 18px;
   line-height: 30px;
+  height: 22px;
   text-decoration: none;
   border-bottom: white 1px solid;
   padding: 0;
@@ -13,4 +14,10 @@
 
 .places__website-url:hover {
   opacity: 0.5;
+}
+
+@media all and (max-width: 767px) {
+  .places__website-url {
+    margin-left: 16px;
+  }
 }

@@ -1,4 +1,5 @@
 .places__website {
+  height: 46px;
   grid-area: url;
   align-self: end;
   display: flex;

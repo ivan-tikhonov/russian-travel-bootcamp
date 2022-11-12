@@ -6,3 +6,10 @@
 .header__lang-link-container:last-of-type {
   margin-right: 0;
 }
+
+@media all and (max-width: 767px) {
+  .header__lang-link-container {
+    margin: 0 18px 0 0;
+    align-self: center;
+  }
+}
