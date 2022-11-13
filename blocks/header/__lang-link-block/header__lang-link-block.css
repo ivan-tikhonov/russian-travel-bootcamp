@@ -9,7 +9,6 @@
 
 @media all and (max-width: 767px) {
   .header__lang-link-block {
-    max-height: 42px;
     align-self: center;
   }
 }

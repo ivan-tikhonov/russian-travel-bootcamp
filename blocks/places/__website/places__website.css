@@ -1,8 +1,15 @@
 .places__website {
-  height: 46px;
   grid-area: url;
   align-self: end;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: flex-end;
+  row-gap: 12px;
+}
+
+@media all and (max-width: 1023px) {
+  .places__website {
+    row-gap: 3px;
+  }
+
 }
