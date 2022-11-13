@@ -6,10 +6,3 @@
   justify-content: flex-end;
   row-gap: 12px;
 }
-
-@media all and (max-width: 1023px) {
-  .places__website {
-    row-gap: 3px;
-  }
-
-}
