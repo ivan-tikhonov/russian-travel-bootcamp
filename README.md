@@ -1,12 +1,30 @@
-# Yandex Practikum Bootcam sprint №3
+# Проектная работа: "Путешествие по России". Создана в рамках учебы в Яндекс.Практикум
 
-Результат самостоятельной работы по третьему спринту
+## Описание:
 
-**Используемые технологии:**
-1. HTML
-2. CSS
+"Путешествие по России" - это типовой однастраничный сайт про российский внутренний туризм. В проектной работе была применена работа с макетом в Figma, построение сложных сеток, разширенные возможности HTML и CSS. Адаптивная вёрстка реализована посредством Flexbox, Grid Layout и Media queries.
 
-Here's a [link](https://ivan-tikhonov.github.io/russian-travel-bootcamp/) to Github pages
-Enjoy!
+[Проектная работа на GitHub Pages](https://ivan-tikhonov.github.io/russian-travel-bootcamp/)
 
-*that's all, folks!*
+## Функционал:
+
+* Адаптивный дизайн
+* Сложная сетка в разделе *places* и *photo-grid*
+* Трансформация элементов страницы посредством CSS
+
+## Технологии:
+
+* Flexbox
+* Grid Layout
+* Positioning Elements
+* BEM Methodology
+* File Structure and File Paths (Nested BEM)
+* Git
+* Figma
+
+## Инструкция по установке:
+
+```
+git clone https://github.com/ivan-tikhonov/russian-travel-bootcamp.git
+```
+Запустите локальный сервер разработки с функцией перезагрузки в реальном времени для статических и динамических страниц
